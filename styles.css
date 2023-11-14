@@ -1,0 +1,13 @@
+/* Place your CSS styles in this file */
+@font-face {font-family: Barabara; src: url(BARABARA-final.otf);}
+@font-face {font-family: Barabara; font-weight: bold; src: url(BARABARA-final.otf)}
+h1 {
+    text-align: center;
+    font-family: "Jokerman", sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Barabara", sans-serif;
+}
