@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Say Hello | cmbcivilesitc
+</title>
+</head>
+<body>
+    <h1>This page says hello.</h1>
+    <h2>This is a Heading 2</h2>
+    <h3>This is a Heading 3</h3>
+    <h4>This is a Heading 4</h4>
+    <h5>This is a Heading 5</h5>
+    <p>This is a paragraph.</p>
+    <br>
+        <p id= "p1">Contrary to popular belief, Lorem Ipsum is not simply random text. 
+            It has roots in a piece of classical Latin literature from 45 BC, 
+            making it over 2000 years old. Richard McClintock, a Latin professor 
+            at Hampden-Sydney College in Virginia, looked up one of the more 
+            obscure Latin words, consectetur, from a Lorem Ipsum passage, and 
+            going through the cites of the word in classical literature, 
+            discovered the undoubtable source. Lorem Ipsum comes from sections 
+            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes 
+            of Good and Evil) by Cicero, written in 45 BC. This book is a 
+            treatise on the theory of ethics, very popular during the Renaissance. 
+            The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
+            from a line in section 1.10.32.
+        </p>
+
+
+        <label for="fname">What is your name? :</label><br>
+        <input type="text" id="fname" name="fname">
+        <button onclick="sayhellouser()">Say Hello</button>
+    <br>
+    <h1 id="hellomsg">Hi</h1>
+    <br>
+    <a href="index.html">Back to Home Page.</a>
+
+<script>
+function sayhellouser()
+{
+    var uname;
+    uname = document.getElementById("fname").value;
+    
+    document.getElementById("hellomsg").innerHTML = 'Hello, ' + uname +'!';
+    document.getElementById("p1").innerHTML='What have you done, ' + uname + '?';
+}
+</script>
+
+</body>
+</html>
